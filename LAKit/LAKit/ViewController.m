@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "LAService.h"
+#import "LANetworkConfig.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    LAService *service = [LANetworkConfig sharedInstance].commonService;
+    NSLog(@"##=%@",service);
 }
 
 

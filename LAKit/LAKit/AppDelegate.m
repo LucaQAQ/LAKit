@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "LANetworking.h"
+
+#import "LASeviceManager.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +23,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     __weak __typeof(self)weakSelf = self;
-    [[LANetworkConfig sharedInstance] piskServerResult:^(NSString * _Nonnull serverType) {
+    [LASeviceManager pickServerResult:^{
         __strong __typeof(weakSelf)strongSelf = weakSelf;
         UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
         strongSelf.window.rootViewController = nav;

@@ -12,14 +12,18 @@
 		81A91B4F225DF170007E42EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A91B4E225DF170007E42EA /* Assets.xcassets */; };
 		81A91B52225DF170007E42EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A91B50225DF170007E42EA /* LaunchScreen.storyboard */; };
 		81A91B55225DF170007E42EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A91B54225DF170007E42EA /* main.m */; };
-		81A91B74225DF17B007E42EA /* LAURLRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A91B5D225DF17B007E42EA /* LAURLRequestManager.m */; };
-		81A91B75225DF17B007E42EA /* LAServerPickVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A91B60225DF17B007E42EA /* LAServerPickVC.m */; };
-		81A91B76225DF17B007E42EA /* LANetworkingConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81A91B62225DF17B007E42EA /* LANetworkingConfig.plist */; };
-		81A91B77225DF17B007E42EA /* LANetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A91B64225DF17B007E42EA /* LANetworkConfig.m */; };
-		81A91B78225DF17B007E42EA /* LAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A91B69225DF17B007E42EA /* LAResponse.m */; };
-		81A91B79225DF17B007E42EA /* LABaseApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A91B6D225DF17B007E42EA /* LABaseApiManager.m */; };
-		81A91B7A225DF17B007E42EA /* LAApiHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A91B70225DF17B007E42EA /* LAApiHandle.m */; };
-		81A91B7B225DF17B007E42EA /* LAService.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A91B73225DF17B007E42EA /* LAService.m */; };
+		81B8E1CA2260345500FD7594 /* LAURLRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E1B32260345500FD7594 /* LAURLRequestManager.m */; };
+		81B8E1CB2260345500FD7594 /* LAServerPickVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E1B62260345500FD7594 /* LAServerPickVC.m */; };
+		81B8E1CC2260345500FD7594 /* LANetworkingConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81B8E1B82260345500FD7594 /* LANetworkingConfig.plist */; };
+		81B8E1CD2260345500FD7594 /* LANetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E1BA2260345500FD7594 /* LANetworkConfig.m */; };
+		81B8E1CE2260345500FD7594 /* LAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E1BF2260345500FD7594 /* LAResponse.m */; };
+		81B8E1CF2260345500FD7594 /* LABaseApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E1C32260345500FD7594 /* LABaseApiManager.m */; };
+		81B8E1D02260345500FD7594 /* LAApiHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E1C62260345500FD7594 /* LAApiHandle.m */; };
+		81B8E1D12260345500FD7594 /* LAService.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E1C92260345500FD7594 /* LAService.m */; };
+		81B8E1D72260780F00FD7594 /* LCServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E1D62260780F00FD7594 /* LCServiceFactory.m */; };
+		81B8E1DB22608D7E00FD7594 /* LASeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E1DA22608D7E00FD7594 /* LASeviceManager.m */; };
+		81BC18CA2260936D00DF0E54 /* LCServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BC18C92260936D00DF0E54 /* LCServiceTest.m */; };
+		81BC18CD2260938500DF0E54 /* LCServiceDistribut.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BC18CC2260938500DF0E54 /* LCServiceDistribut.m */; };
 		D76FAC33BC5B77384219ABED /* libPods-LAKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69722091ADF847A29F5D652C /* libPods-LAKit.a */; };
 /* End PBXBuildFile section */
 
@@ -35,24 +39,32 @@
 		81A91B51225DF170007E42EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81A91B53225DF170007E42EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81A91B54225DF170007E42EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		81A91B5D225DF17B007E42EA /* LAURLRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAURLRequestManager.m; sourceTree = "<group>"; };
-		81A91B5E225DF17B007E42EA /* LAURLRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAURLRequestManager.h; sourceTree = "<group>"; };
-		81A91B60225DF17B007E42EA /* LAServerPickVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAServerPickVC.m; sourceTree = "<group>"; };
-		81A91B61225DF17B007E42EA /* LANetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANetworkConfig.h; sourceTree = "<group>"; };
-		81A91B62225DF17B007E42EA /* LANetworkingConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LANetworkingConfig.plist; sourceTree = "<group>"; };
-		81A91B63225DF17B007E42EA /* LAServerPickVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAServerPickVC.h; sourceTree = "<group>"; };
-		81A91B64225DF17B007E42EA /* LANetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANetworkConfig.m; sourceTree = "<group>"; };
-		81A91B65225DF17B007E42EA /* LANetworkingENUM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANetworkingENUM.h; sourceTree = "<group>"; };
-		81A91B66225DF17B007E42EA /* LANetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANetworking.h; sourceTree = "<group>"; };
-		81A91B67225DF17B007E42EA /* LANetworkingKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANetworkingKeys.h; sourceTree = "<group>"; };
-		81A91B69225DF17B007E42EA /* LAResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAResponse.m; sourceTree = "<group>"; };
-		81A91B6A225DF17B007E42EA /* LAResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAResponse.h; sourceTree = "<group>"; };
-		81A91B6C225DF17B007E42EA /* LABaseApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LABaseApiManager.h; sourceTree = "<group>"; };
-		81A91B6D225DF17B007E42EA /* LABaseApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LABaseApiManager.m; sourceTree = "<group>"; };
-		81A91B6F225DF17B007E42EA /* LAApiHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAApiHandle.h; sourceTree = "<group>"; };
-		81A91B70225DF17B007E42EA /* LAApiHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAApiHandle.m; sourceTree = "<group>"; };
-		81A91B72225DF17B007E42EA /* LAService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAService.h; sourceTree = "<group>"; };
-		81A91B73225DF17B007E42EA /* LAService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAService.m; sourceTree = "<group>"; };
+		81B8E1B32260345500FD7594 /* LAURLRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAURLRequestManager.m; sourceTree = "<group>"; };
+		81B8E1B42260345500FD7594 /* LAURLRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAURLRequestManager.h; sourceTree = "<group>"; };
+		81B8E1B62260345500FD7594 /* LAServerPickVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAServerPickVC.m; sourceTree = "<group>"; };
+		81B8E1B72260345500FD7594 /* LANetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANetworkConfig.h; sourceTree = "<group>"; };
+		81B8E1B82260345500FD7594 /* LANetworkingConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LANetworkingConfig.plist; sourceTree = "<group>"; };
+		81B8E1B92260345500FD7594 /* LAServerPickVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAServerPickVC.h; sourceTree = "<group>"; };
+		81B8E1BA2260345500FD7594 /* LANetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANetworkConfig.m; sourceTree = "<group>"; };
+		81B8E1BB2260345500FD7594 /* LANetworkingENUM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANetworkingENUM.h; sourceTree = "<group>"; };
+		81B8E1BC2260345500FD7594 /* LANetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANetworking.h; sourceTree = "<group>"; };
+		81B8E1BD2260345500FD7594 /* LANetworkingKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANetworkingKeys.h; sourceTree = "<group>"; };
+		81B8E1BF2260345500FD7594 /* LAResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAResponse.m; sourceTree = "<group>"; };
+		81B8E1C02260345500FD7594 /* LAResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAResponse.h; sourceTree = "<group>"; };
+		81B8E1C22260345500FD7594 /* LABaseApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LABaseApiManager.h; sourceTree = "<group>"; };
+		81B8E1C32260345500FD7594 /* LABaseApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LABaseApiManager.m; sourceTree = "<group>"; };
+		81B8E1C52260345500FD7594 /* LAApiHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAApiHandle.h; sourceTree = "<group>"; };
+		81B8E1C62260345500FD7594 /* LAApiHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAApiHandle.m; sourceTree = "<group>"; };
+		81B8E1C82260345500FD7594 /* LAService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAService.h; sourceTree = "<group>"; };
+		81B8E1C92260345500FD7594 /* LAService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAService.m; sourceTree = "<group>"; };
+		81B8E1D52260780F00FD7594 /* LCServiceFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCServiceFactory.h; sourceTree = "<group>"; };
+		81B8E1D62260780F00FD7594 /* LCServiceFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCServiceFactory.m; sourceTree = "<group>"; };
+		81B8E1D922608D7E00FD7594 /* LASeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LASeviceManager.h; sourceTree = "<group>"; };
+		81B8E1DA22608D7E00FD7594 /* LASeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LASeviceManager.m; sourceTree = "<group>"; };
+		81BC18C82260936D00DF0E54 /* LCServiceTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCServiceTest.h; sourceTree = "<group>"; };
+		81BC18C92260936D00DF0E54 /* LCServiceTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCServiceTest.m; sourceTree = "<group>"; };
+		81BC18CB2260938500DF0E54 /* LCServiceDistribut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCServiceDistribut.h; sourceTree = "<group>"; };
+		81BC18CC2260938500DF0E54 /* LCServiceDistribut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCServiceDistribut.m; sourceTree = "<group>"; };
 		BF5D4D24AC7B976D888BE9D9 /* Pods-LAKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAKit/Pods-LAKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +110,8 @@
 		81A91B44225DF16E007E42EA /* LAKit */ = {
 			isa = PBXGroup;
 			children = (
-				81A91B5B225DF17B007E42EA /* LANetworking */,
+				81B8E1D822607AB000FD7594 /* LAHttpNetwork */,
+				81B8E1B12260345500FD7594 /* LANetworking */,
 				81A91B45225DF16E007E42EA /* AppDelegate.h */,
 				81A91B46225DF16E007E42EA /* AppDelegate.m */,
 				81A91B48225DF16E007E42EA /* ViewController.h */,
@@ -111,78 +124,100 @@
 			path = LAKit;
 			sourceTree = "<group>";
 		};
-		81A91B5B225DF17B007E42EA /* LANetworking */ = {
+		81B8E1B12260345500FD7594 /* LANetworking */ = {
 			isa = PBXGroup;
 			children = (
-				81A91B5C225DF17B007E42EA /* URLRequest */,
-				81A91B5F225DF17B007E42EA /* Configuration */,
-				81A91B65225DF17B007E42EA /* LANetworkingENUM.h */,
-				81A91B66225DF17B007E42EA /* LANetworking.h */,
-				81A91B67225DF17B007E42EA /* LANetworkingKeys.h */,
-				81A91B68225DF17B007E42EA /* Response */,
-				81A91B6B225DF17B007E42EA /* BaseApiManager */,
-				81A91B6E225DF17B007E42EA /* ApiHandle */,
-				81A91B71225DF17B007E42EA /* Services */,
+				81B8E1C42260345500FD7594 /* ApiHandle */,
+				81B8E1C12260345500FD7594 /* BaseApiManager */,
+				81B8E1B52260345500FD7594 /* Configuration */,
+				81B8E1BC2260345500FD7594 /* LANetworking.h */,
+				81B8E1BB2260345500FD7594 /* LANetworkingENUM.h */,
+				81B8E1BD2260345500FD7594 /* LANetworkingKeys.h */,
+				81B8E1BE2260345500FD7594 /* Response */,
+				81B8E1C72260345500FD7594 /* Services */,
+				81B8E1B22260345500FD7594 /* URLRequest */,
 			);
-			name = LANetworking;
-			path = ../../../iOS/LCPro/LCPro/Modules/LANetworking;
+			path = LANetworking;
 			sourceTree = "<group>";
 		};
-		81A91B5C225DF17B007E42EA /* URLRequest */ = {
+		81B8E1B22260345500FD7594 /* URLRequest */ = {
 			isa = PBXGroup;
 			children = (
-				81A91B5D225DF17B007E42EA /* LAURLRequestManager.m */,
-				81A91B5E225DF17B007E42EA /* LAURLRequestManager.h */,
+				81B8E1B42260345500FD7594 /* LAURLRequestManager.h */,
+				81B8E1B32260345500FD7594 /* LAURLRequestManager.m */,
 			);
 			path = URLRequest;
 			sourceTree = "<group>";
 		};
-		81A91B5F225DF17B007E42EA /* Configuration */ = {
+		81B8E1B52260345500FD7594 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				81A91B60225DF17B007E42EA /* LAServerPickVC.m */,
-				81A91B61225DF17B007E42EA /* LANetworkConfig.h */,
-				81A91B62225DF17B007E42EA /* LANetworkingConfig.plist */,
-				81A91B63225DF17B007E42EA /* LAServerPickVC.h */,
-				81A91B64225DF17B007E42EA /* LANetworkConfig.m */,
+				81B8E1B72260345500FD7594 /* LANetworkConfig.h */,
+				81B8E1BA2260345500FD7594 /* LANetworkConfig.m */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		81A91B68225DF17B007E42EA /* Response */ = {
+		81B8E1BE2260345500FD7594 /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				81A91B69225DF17B007E42EA /* LAResponse.m */,
-				81A91B6A225DF17B007E42EA /* LAResponse.h */,
+				81B8E1C02260345500FD7594 /* LAResponse.h */,
+				81B8E1BF2260345500FD7594 /* LAResponse.m */,
 			);
 			path = Response;
 			sourceTree = "<group>";
 		};
-		81A91B6B225DF17B007E42EA /* BaseApiManager */ = {
+		81B8E1C12260345500FD7594 /* BaseApiManager */ = {
 			isa = PBXGroup;
 			children = (
-				81A91B6C225DF17B007E42EA /* LABaseApiManager.h */,
-				81A91B6D225DF17B007E42EA /* LABaseApiManager.m */,
+				81B8E1C22260345500FD7594 /* LABaseApiManager.h */,
+				81B8E1C32260345500FD7594 /* LABaseApiManager.m */,
 			);
 			path = BaseApiManager;
 			sourceTree = "<group>";
 		};
-		81A91B6E225DF17B007E42EA /* ApiHandle */ = {
+		81B8E1C42260345500FD7594 /* ApiHandle */ = {
 			isa = PBXGroup;
 			children = (
-				81A91B6F225DF17B007E42EA /* LAApiHandle.h */,
-				81A91B70225DF17B007E42EA /* LAApiHandle.m */,
+				81B8E1C52260345500FD7594 /* LAApiHandle.h */,
+				81B8E1C62260345500FD7594 /* LAApiHandle.m */,
 			);
 			path = ApiHandle;
 			sourceTree = "<group>";
 		};
-		81A91B71225DF17B007E42EA /* Services */ = {
+		81B8E1C72260345500FD7594 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				81A91B72225DF17B007E42EA /* LAService.h */,
-				81A91B73225DF17B007E42EA /* LAService.m */,
+				81B8E1C82260345500FD7594 /* LAService.h */,
+				81B8E1C92260345500FD7594 /* LAService.m */,
+				81B8E1D52260780F00FD7594 /* LCServiceFactory.h */,
+				81B8E1D62260780F00FD7594 /* LCServiceFactory.m */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		81B8E1D822607AB000FD7594 /* LAHttpNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				81BC18C72260909C00DF0E54 /* Sevice */,
+				81B8E1B82260345500FD7594 /* LANetworkingConfig.plist */,
+				81B8E1B92260345500FD7594 /* LAServerPickVC.h */,
+				81B8E1B62260345500FD7594 /* LAServerPickVC.m */,
+				81B8E1D922608D7E00FD7594 /* LASeviceManager.h */,
+				81B8E1DA22608D7E00FD7594 /* LASeviceManager.m */,
+			);
+			path = LAHttpNetwork;
+			sourceTree = "<group>";
+		};
+		81BC18C72260909C00DF0E54 /* Sevice */ = {
+			isa = PBXGroup;
+			children = (
+				81BC18C82260936D00DF0E54 /* LCServiceTest.h */,
+				81BC18C92260936D00DF0E54 /* LCServiceTest.m */,
+				81BC18CB2260938500DF0E54 /* LCServiceDistribut.h */,
+				81BC18CC2260938500DF0E54 /* LCServiceDistribut.m */,
+			);
+			path = Sevice;
 			sourceTree = "<group>";
 		};
 		A7AF53DD1650DDBECC1F6B8F /* Frameworks */ = {
@@ -252,7 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A91B52225DF170007E42EA /* LaunchScreen.storyboard in Resources */,
-				81A91B76225DF17B007E42EA /* LANetworkingConfig.plist in Resources */,
+				81B8E1CC2260345500FD7594 /* LANetworkingConfig.plist in Resources */,
 				81A91B4F225DF170007E42EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,16 +324,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A91B75225DF17B007E42EA /* LAServerPickVC.m in Sources */,
-				81A91B77225DF17B007E42EA /* LANetworkConfig.m in Sources */,
-				81A91B7B225DF17B007E42EA /* LAService.m in Sources */,
-				81A91B79225DF17B007E42EA /* LABaseApiManager.m in Sources */,
-				81A91B74225DF17B007E42EA /* LAURLRequestManager.m in Sources */,
+				81B8E1CB2260345500FD7594 /* LAServerPickVC.m in Sources */,
+				81BC18CA2260936D00DF0E54 /* LCServiceTest.m in Sources */,
+				81B8E1CD2260345500FD7594 /* LANetworkConfig.m in Sources */,
+				81B8E1D12260345500FD7594 /* LAService.m in Sources */,
+				81B8E1CF2260345500FD7594 /* LABaseApiManager.m in Sources */,
+				81B8E1CA2260345500FD7594 /* LAURLRequestManager.m in Sources */,
 				81A91B4A225DF16E007E42EA /* ViewController.m in Sources */,
-				81A91B78225DF17B007E42EA /* LAResponse.m in Sources */,
-				81A91B7A225DF17B007E42EA /* LAApiHandle.m in Sources */,
+				81BC18CD2260938500DF0E54 /* LCServiceDistribut.m in Sources */,
+				81B8E1D72260780F00FD7594 /* LCServiceFactory.m in Sources */,
+				81B8E1CE2260345500FD7594 /* LAResponse.m in Sources */,
+				81B8E1D02260345500FD7594 /* LAApiHandle.m in Sources */,
 				81A91B55225DF170007E42EA /* main.m in Sources */,
 				81A91B47225DF16E007E42EA /* AppDelegate.m in Sources */,
+				81B8E1DB22608D7E00FD7594 /* LASeviceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
